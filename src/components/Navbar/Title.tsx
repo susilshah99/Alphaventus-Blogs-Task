@@ -10,7 +10,8 @@ const Nav=styled.div({
     justifyContent:"space-between",
     alignItems:"center",
     backgroundColor:"white",
-    padding:"6px 0px"
+    padding:"9px 0px",
+    marginBottom:"8px"
 })
 
 const Header=styled.div({
@@ -26,7 +27,7 @@ const Titlemenu=styled.div({
 const BlogTitle:React.FunctionComponent=()=>{
     return(
         <Nav>
-              <Header><Title level={3}>Blog</Title></Header>
+              <Header><Title level={4}>Blog</Title></Header>
                 <Titlemenu>
                     <Breadcrumb>
                             <Breadcrumb.Item>Home</Breadcrumb.Item>

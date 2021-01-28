@@ -9,7 +9,7 @@ const Nav=styled.div({
     justifyContent:"space-between",
     marginLeft:"50px",
     alignItems:"center",
-    padding:"6px 0px"
+    padding:"9px 0px"
 })
 
 const Navmenu=styled.div({
@@ -25,14 +25,14 @@ const NavmenuItem=styled.div({
 const Navbar:React.FunctionComponent=()=>{
     return(
         <Nav>
-              <Title level={3}>Sada.</Title>
+              <Title level={4}>Sada.</Title>
               <Navmenu>
-                  <NavmenuItem><Title level={5}>Home</Title></NavmenuItem>
-                  <NavmenuItem><Title level={5}>Pages</Title></NavmenuItem>
-                  <NavmenuItem><Title level={5}>Portfolio</Title></NavmenuItem>
-                  <NavmenuItem><Title level={5}>Blog</Title></NavmenuItem>
-                  <NavmenuItem><Title level={5}>Shop</Title></NavmenuItem>
-                  <NavmenuItem><Title level={5}>Elements</Title></NavmenuItem>
+                  <NavmenuItem><Title level={3}>Home</Title></NavmenuItem>
+                  <NavmenuItem><Title level={3}>Pages</Title></NavmenuItem>
+                  <NavmenuItem><Title level={3}>Portfolio</Title></NavmenuItem>
+                  <NavmenuItem><Title level={3}>Blog</Title></NavmenuItem>
+                  <NavmenuItem><Title level={3}>Shop</Title></NavmenuItem>
+                  <NavmenuItem><Title level={3}>Elements</Title></NavmenuItem>
               </Navmenu>
         </Nav>
     )

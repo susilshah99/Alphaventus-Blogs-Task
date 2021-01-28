@@ -13,7 +13,9 @@ const Trendingcontainer=styled.div({
     borderRadius:"7px"
 })  
 const TrendingItem=styled.div({
-      marginBottom:"9px"
+      marginBottom:"12px",
+      paddingBottom:"10px",
+      paddingTop:"10px"
 })  
 
 const Trending:React.FC=()=>{

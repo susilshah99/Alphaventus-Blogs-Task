@@ -3,6 +3,8 @@ import Navbar from './components/Navbar/Navbar'
 import BlogTitle from './components/Navbar/Title'
 import styled from '@emotion/styled'
 import Body from './components/Body/Body'
+import Paginations from './components/Pagination/Pagination'
+import Footer from './components/Footer/Footer'
 import 'antd/dist/antd.css';
 import  './App.css'
 
@@ -19,6 +21,8 @@ function App() {
        <Navbar/>
        <BlogTitle/>
        <Body/>
+       <Paginations/>
+       <Footer/>
      </Container>
 
   );

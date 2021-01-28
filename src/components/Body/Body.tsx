@@ -11,6 +11,7 @@ import Technology from './RoutingComponents/Technology'
 import Sports from './RoutingComponents/Sports'
 import Politics from './RoutingComponents/Politics'
 import Science from './RoutingComponents/Science'
+import Business from './RoutingComponents/Business'
 
 const Bodywrapper=styled.div({
     width:"85vw",
@@ -35,6 +36,7 @@ const Body: React.FunctionComponent = () => {
                         <Route path="/technology" component={Technology}/>
                         <Route path="/sports" component={Sports}/>
                         <Route path="/politics" component={Politics}/>
+                        <Route path="/business" component={Business}/>
                     </Switch>
                 </Col>
             </Row>

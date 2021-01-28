@@ -17,6 +17,8 @@ const Categorycontainer=styled.div({
 
 const CategoryItem=styled.div({
   borderBottom:"0.2px solid #ecb390",
+  paddingTop:"8px",
+  paddingBottom:"5px"
 })              
 
 const CategoryList:React.FC=()=>{
@@ -26,8 +28,8 @@ const CategoryList:React.FC=()=>{
                 <CategoryItem><Link to="/science"><h4>Science</h4></Link></CategoryItem>
                 <CategoryItem><Link to="/technology"><h4>Technology</h4></Link></CategoryItem>
                 <CategoryItem><Link to="/sports"><h4>Sports</h4></Link></CategoryItem>
-                <CategoryItem><Link to="/politics"><h4>Politics</h4></Link></CategoryItem>
-               <h4>Music</h4>
+                <CategoryItem><Link to="/politics"><h4>Entertainment</h4></Link></CategoryItem>
+               <Link to="/business"><h4>Business</h4></Link>
         </Categorycontainer>
     )
 }

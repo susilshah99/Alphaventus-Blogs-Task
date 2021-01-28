@@ -31,3 +31,16 @@ img{
   width:110px;
   border-radius: 3px;
 }
+.content{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+h3{
+  font-size: 15px !important;
+  padding:3px 0px;
+}
+.displaycard__image{
+  height: 220px;
+}
