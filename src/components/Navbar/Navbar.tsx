@@ -9,7 +9,7 @@ const Nav=styled.div({
     justifyContent:"space-between",
     marginLeft:"50px",
     alignItems:"center",
-    padding:"9px 0px"
+    padding:"9px 0px",
 })
 
 const Navmenu=styled.div({

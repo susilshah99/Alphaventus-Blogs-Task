@@ -8,7 +8,7 @@ const { Title } = Typography;
 
 const Categorycontainer=styled.div({
       marginTop:"19px",
-      backgroundColor:"#fcf8e8",
+      backgroundColor:"white",
       padding:"19px",
       boxShadow:"0px 5px 4px -6px grey",
       borderRadius:"7px"
