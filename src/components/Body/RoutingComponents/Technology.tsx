@@ -7,9 +7,9 @@ const Technology:React.FC=()=>{
 
     
   useEffect(()=>{
-      fetch(`http://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=4f311b873caa4098b6fefb3dc896f9fe`)
+      fetch(`http://newsapi.org/v2/top-headlines?country=us&category=technology&pageSize=6&apiKey=b19cbbc893114e809520aa1c21648464`)
       .then(response=>(response.json()))
-      .then(data=>setBlogs(data.articles.slice(0,6)))
+      .then(data=>setBlogs(data.articles))
 
   },[])
   return(

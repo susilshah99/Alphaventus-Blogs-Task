@@ -24,7 +24,7 @@ const Trending:React.FC=()=>{
     console.log(blogs)
 
     useEffect(()=>{
-        fetch(`http://newsapi.org/v2/top-headlines?country=us&apiKey=4f311b873caa4098b6fefb3dc896f9fe`)
+        fetch(`http://newsapi.org/v2/top-headlines?country=us&apiKey=b19cbbc893114e809520aa1c21648464`)
         .then(response=>(response.json()))
         .then(data=>setBlogs(data.articles.slice(0,4)))
 
