@@ -7,7 +7,7 @@ const { Title } = Typography;
 
 const Nav=styled.div({
     backgroundColor:"white",
-    padding:"9px 0px",
+    padding:"16px 0px",
     marginBottom:"8px"
 })
 

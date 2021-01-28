@@ -5,7 +5,7 @@ import styled from '@emotion/styled'
 const { Title } = Typography;
 
 const Nav=styled.div({
-    padding:"9px 0px",
+    padding:"16px 0px",
 })
 
 const NavContainer=styled.div({

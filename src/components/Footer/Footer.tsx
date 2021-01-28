@@ -20,7 +20,7 @@ const Footer:React.FC=()=>{
         <FooterContainer>
             <FooterItems>
             <Row>
-                <Col span={4}> 
+                <Col span={6}> 
                      <Title level={5}>Sada.</Title>
                      <h3><i className='bx bx-copyright' ></i>2018 Energetic Themes</h3>
                 </Col>

@@ -15,7 +15,7 @@ const PhotoGallery:React.FC=()=>{
     return(
         <Photocontainer>
             <Photoheader><Title level={4}>Instagram</Title></Photoheader>
-         <Row gutter={[10, 10]}>
+         <Row gutter={[10, 5]}>
             <Col span={8}><img src="/photo1.jpg"/></Col>
             <Col span={8}><img src="/photo2.jpg"/></Col>
             <Col span={8}><img src="/photo3.jpg"/></Col>
