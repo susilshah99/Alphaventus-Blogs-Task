@@ -24,9 +24,9 @@ const Body: React.FunctionComponent = () => {
         <Bodywrapper>
             <Row gutter={16}>
                 <Col span={8}>
-                    <SearchBar/>
-                    <CategoryList/>
-                    <Trending/>
+                        <SearchBar/>
+                        <CategoryList/>
+                        <Trending/>
                     <PhotoGallery/>
                 </Col>
                 <Col span={16}>

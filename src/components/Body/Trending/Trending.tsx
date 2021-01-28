@@ -2,6 +2,7 @@ import React from 'react'
 import { Typography } from 'antd';
 import styled from '@emotion/styled'
 import {useState,useEffect} from 'react'
+import { Row, Col } from 'antd'
 
 const { Title } = Typography;
 
@@ -32,11 +33,18 @@ const Trending:React.FC=()=>{
         <Trendingcontainer>
               <Title level={4}>Top Posts</Title>
               {
-                  blogs && blogs.map((item:any)=>(
+                  blogs && blogs.map((item:any,index:number)=>(
+                      
                       <TrendingItem>
-                        <h4>{item.title}</h4>
-                        <span>{item.author}-{item.publishedAt}</span>
+                        <Row>
+                            <Col span={4}> <Title level={2}>{index+1}</Title></Col>
+                            <Col span={20}>
+                                <h4>{item.title}</h4>
+                                <span>{item.author}-{item.publishedAt}</span>
+                            </Col>
+                        </Row>
                       </TrendingItem>
+                      
                   ))
               }
         </Trendingcontainer>

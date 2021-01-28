@@ -29,7 +29,7 @@ const CategoryList:React.FC=()=>{
                 <CategoryItem><Link to="/technology"><h4>Technology</h4></Link></CategoryItem>
                 <CategoryItem><Link to="/sports"><h4>Sports</h4></Link></CategoryItem>
                 <CategoryItem><Link to="/politics"><h4>Entertainment</h4></Link></CategoryItem>
-               <Link to="/business"><h4>Business</h4></Link>
+               <Link to="/business"><h4 style={{padding:"8px 0px"}}>Business</h4></Link>
         </Categorycontainer>
     )
 }
