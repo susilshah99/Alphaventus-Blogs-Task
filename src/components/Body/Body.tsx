@@ -14,15 +14,20 @@ import Science from './RoutingComponents/Science'
 import Business from './RoutingComponents/Business'
 
 const Bodywrapper=styled.div({
-    width:"85vw",
     margin:"30px auto"
+})
+
+const BodyContainer=styled.div({
+    width:"70%",
+    margin:"auto"
 })
 
 const Body: React.FunctionComponent = () => {
     return (
     <BrowserRouter>
         <Bodywrapper>
-            <Row gutter={16}>
+            <BodyContainer>
+            <Row gutter={40}>
                 <Col span={8}>
                         <SearchBar/>
                         <CategoryList/>
@@ -40,7 +45,7 @@ const Body: React.FunctionComponent = () => {
                     </Switch>
                 </Col>
             </Row>
-
+          </BodyContainer>
         </Bodywrapper>
     </BrowserRouter>
 

@@ -5,26 +5,28 @@ import styled from '@emotion/styled'
 const { Title } = Typography;
 
 const Nav=styled.div({
-    display:"flex",
-    justifyContent:"space-between",
-    marginLeft:"50px",
-    alignItems:"center",
     padding:"9px 0px",
 })
 
+const NavContainer=styled.div({
+    width:"70%",
+    margin:"auto",
+    display:"flex",
+    justifyContent:"space-between",
+    alignItems:"center"
+})
 const Navmenu=styled.div({
     display:"flex",
-    marginRight:"30px",
-    paddingRight:"20px"
 })
 
 const NavmenuItem=styled.div({
-   padding:"0px 20px"
+ paddingLeft:"35px"
 })
 
 const Navbar:React.FunctionComponent=()=>{
     return(
         <Nav>
+           <NavContainer>
               <Title level={4}>Sada.</Title>
               <Navmenu>
                   <NavmenuItem><Title level={3}>Home</Title></NavmenuItem>
@@ -34,6 +36,7 @@ const Navbar:React.FunctionComponent=()=>{
                   <NavmenuItem><Title level={3}>Shop</Title></NavmenuItem>
                   <NavmenuItem><Title level={3}>Elements</Title></NavmenuItem>
               </Navmenu>
+              </NavContainer>
         </Nav>
     )
 }

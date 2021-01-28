@@ -6,28 +6,28 @@ import { Breadcrumb } from 'antd';
 const { Title } = Typography;
 
 const Nav=styled.div({
-    display:"flex",
-    justifyContent:"space-between",
-    alignItems:"center",
     backgroundColor:"white",
     padding:"9px 0px",
     marginBottom:"8px"
 })
 
-const Header=styled.div({
-    marginLeft:"50px"
+const TitleContainer=styled.div({
+    width:"70%",
+    margin:"auto",
+    display:"flex",
+    justifyContent:"space-between",
+    alignItems:"center"
 })
 
 const Titlemenu=styled.div({
     display:"flex",
-    marginRight:"30px",
-    paddingRight:"20px"
 })
 
 const BlogTitle:React.FunctionComponent=()=>{
     return(
         <Nav>
-              <Header><Title level={4}>Blog</Title></Header>
+          <TitleContainer>
+              <Title level={4}>Blog</Title>
                 <Titlemenu>
                     <Breadcrumb>
                             <Breadcrumb.Item>Home</Breadcrumb.Item>
@@ -36,6 +36,7 @@ const BlogTitle:React.FunctionComponent=()=>{
                          
                     </Breadcrumb>
               </Titlemenu>
+              </TitleContainer>
         </Nav>
     )
 }

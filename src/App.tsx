@@ -11,18 +11,19 @@ import  './App.css'
 const API_KEY="4f311b873caa4098b6fefb3dc896f9fe"
 
 const Container=styled.div({
-  height:"100vh",
-  width:"100vw"
+  
 })
 
 function App() {
   return (
      <Container>
-       <Navbar/>
-       <BlogTitle/>
-       <Body/>
-       <Paginations/>
-       <Footer/>
+       <div className="main__container">
+          <Navbar/>
+          <BlogTitle/>
+          <Body/>
+          <Paginations/>
+          <Footer/>
+       </div>
      </Container>
 
   );

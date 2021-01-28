@@ -10,12 +10,17 @@ const FooterContainer=styled.div({
     paddingTop:"20px",
     backgroundColor:"white",
 })
+const FooterItems=styled.div({
+    width:"70%",
+    margin:"auto"
+})
 
 const Footer:React.FC=()=>{
     return(
         <FooterContainer>
+            <FooterItems>
             <Row>
-                <Col span={4} offset={2}> 
+                <Col span={4}> 
                      <Title level={5}>Sada.</Title>
                      <h3><i className='bx bx-copyright' ></i>2018 Energetic Themes</h3>
                 </Col>
@@ -41,6 +46,7 @@ const Footer:React.FC=()=>{
                 </Col>
                
             </Row>
+            </FooterItems>
 
         </FooterContainer>
     )

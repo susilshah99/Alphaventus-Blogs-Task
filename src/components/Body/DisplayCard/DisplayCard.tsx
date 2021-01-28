@@ -24,13 +24,13 @@ const DisplayCard:React.FC<DisplayCardProps>=({blogs})=>{
 
     return(
         <div>
-          <Row gutter={[16, 16]}>
+          <Row gutter={[20, 20]}>
              {
                    blogs && blogs.map((item:any)=>(
-                    <Col span={8}>
+                    <Col span={12}>
                       <Card
                       hoverable
-                      style={{ width: 240 }}
+                      style={{ width: "100%" }}
                       cover={<img alt="example" className="displaycard__image" src={item.urlToImage} />}
                       >
                       <StyleMeta title={item.title} description={item.content} />
