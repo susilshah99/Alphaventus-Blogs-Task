@@ -22,7 +22,7 @@ const Footer:React.FC=()=>{
             <Row>
                 <Col span={6}> 
                      <Title level={5}>Sada.</Title>
-                     <h3><i className='bx bx-copyright' ></i>2018 Energetic Themes</h3>
+                     <h3 className="copyrights"><i className='bx bx-copyright' ></i>2018 Energetic Themes</h3>
                 </Col>
                 <Col span={4} offset={2}>
                     <Title level={5}>About us</Title>
@@ -40,8 +40,8 @@ const Footer:React.FC=()=>{
                 </Col>
                 <Col span={4} offset={2}>
                     <Title level={5}>Contact us</Title>
-                    <h3>alphaventus@gmail.com</h3>
-                     <h3>01-55667788</h3>
+                    <h3 className="contact">alphaventus@gmail.com</h3>
+                     <h3 className="contact">01-55667788</h3>
                      <span><i className='bx bxl-facebook'></i><i className='bx bxl-instagram' ></i><i className='bx bxl-twitter' ></i></span>
                 </Col>
                

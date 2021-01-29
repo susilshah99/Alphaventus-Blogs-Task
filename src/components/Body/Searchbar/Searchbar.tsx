@@ -3,20 +3,18 @@ import {SearchOutlined} from '@ant-design/icons';
 import styled from '@emotion/styled'
 
 const Searchcontainer=styled.div({
-    borderRadius:"13px",
+    borderRadius:"25px",
     backgroundColor:"white",
-    padding:"3px 12px",
-    display:"flex",
-    justifyContent:"space-between",
-    alignItems:"center",
-    boxShadow:"0px 5px 4px -6px grey"
+    position:"relative",
+    boxShadow:"0px 5px 4px -6px grey",
+    padding:"4px 8px"
 })
 
 const SearchBar:React.FC=()=>{
     return(
         <Searchcontainer>
            <input placeholder="Search..." />
-            <SearchOutlined />
+            <SearchOutlined  className="search__icon"/>
         </Searchcontainer>
     )
 }

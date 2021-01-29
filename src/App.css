@@ -9,7 +9,8 @@ body{
 
 input{
   border:none;
-
+  width: 100%;
+  border-radius: 10px;
 }
 input:focus{
   outline: none;
@@ -20,6 +21,7 @@ span{
 }
 h4{
   font-weight: 700 !important;
+  font-size: 15px;
 }
 span{
   font-weight: 400;
@@ -33,10 +35,27 @@ img{
 }
 
 h3{
-  font-size: 15px !important;
+  font-size: 12px !important;
   padding:3px 0px;
+  font-weight: 700;
 }
 .displaycard__image{
   height: 220px;
 }
 
+i{
+  padding-right: 9px;
+}
+.copyrights{
+  font-weight: 300 !important;
+  padding-top:15px;
+  margin-top:15px;
+}
+.contact{
+  font-weight: 300 !important;
+}
+.search__icon{
+  position: absolute;
+  top:8px;
+  right:9px;
+}

@@ -10,7 +10,12 @@ const Nav=styled.div({
     padding:"16px 0px",
     marginBottom:"8px"
 })
-
+const StyledBreadcrumb=styled(Breadcrumb)`
+span{
+    font-size:12px;
+    text-transform:uppercase;
+} 
+`
 const TitleContainer=styled.div({
     width:"70%",
     margin:"auto",
@@ -29,12 +34,12 @@ const BlogTitle:React.FunctionComponent=()=>{
           <TitleContainer>
               <Title level={4}>Blog</Title>
                 <Titlemenu>
-                    <Breadcrumb>
-                            <Breadcrumb.Item>Home</Breadcrumb.Item>
-                            <Breadcrumb.Item>Blog</Breadcrumb.Item>
+                    <StyledBreadcrumb>
+                           <Breadcrumb.Item>Home</Breadcrumb.Item>
+                             <Breadcrumb.Item>Blog</Breadcrumb.Item>
                             <Breadcrumb.Item>Left Sidebar</Breadcrumb.Item>
                          
-                    </Breadcrumb>
+                    </StyledBreadcrumb>
               </Titlemenu>
               </TitleContainer>
         </Nav>
